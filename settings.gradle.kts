@@ -21,3 +21,7 @@ buildscript {
 }
 
 apply(plugin = "com.soywiz.korge.settings")
+
+include("XenoECS")
+include("ktruth")
+project(":ktruth").projectDir = file("..\\XenoECS\\ktruth")

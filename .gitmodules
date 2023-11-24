@@ -1,0 +1,3 @@
+[submodule "XenoECS"]
+	path = XenoECS
+	url = https://github.com/Kietyo/XenoECS.git

@@ -1,3 +1,4 @@
+import com.xenotactic.ecs.*
 import korlibs.time.*
 import korlibs.korge.*
 import korlibs.korge.scene.*
@@ -13,6 +14,8 @@ suspend fun main() = Korge(windowSize = Size(512, 512), backgroundColor = Colors
 	val sceneContainer = sceneContainer()
 
 	sceneContainer.changeTo({ MyScene() })
+
+    val world = World()
 }
 
 class MyScene : Scene() {
